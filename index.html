@@ -118,11 +118,21 @@
         <div id="My_Projects">
         <h2>My Projects</h2>
 
-        <form>
+        <form action="https://stjohns.instructure.com/courses/79450" method=POST>
             <div>
-                <input type="text" placeholder="Type your Assignment" name="Assignment_field">
+                <input type="text" placeholder="Type your Name" name="Assignment_field">
+            </div>
+            
+            <div>
+                <label for="Done_group"> Subject Group:</label>
+                <input name="Done_group" type="radio" value="Module"> Module
+                <input name="Done_group" type="radio" value="Assignments"> Assignments
+                <input name="Done_group" type="radio" value="Grades"> Grades
             </div>
 
+            <div>
+                <input type="Submit" value="Submit">
+            </div>
         </form>
 
         <hr>
