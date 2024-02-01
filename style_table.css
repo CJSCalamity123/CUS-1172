@@ -1,0 +1,25 @@
+.box_table>table {
+    border-width:2px;
+    border-style:solid;
+    border-color:aqua;
+    border-collapse:collapse;
+    width: 50%;
+}
+
+.box_table>table th, .box_table>table td{
+    border:1px solid green;
+    padding:5px;
+    text-align:center;
+}
+
+.box_table>table th{
+    background-color:lightgrey;
+}
+
+.box_table>table td{
+    background-color:#00f7ff;
+}
+
+.box_table>table th:hover {
+    background-color:#0fff0f;
+}
