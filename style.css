@@ -1,0 +1,17 @@
+h2 {
+    background-color:rgb(139, 97, 0);
+    text-align:center;
+    color:rgb(141, 252, 141)
+}
+
+.green-background{
+    background-color:green;
+    text-align:center
+}
+
+
+#heading {
+    background-color:green;
+    text-align:center;
+    font-size:5em;
+}
