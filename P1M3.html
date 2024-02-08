@@ -35,13 +35,23 @@
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
 
-            .green-background{
-                background-color:rgb(12, 255, 12);
+            h4 {
                 color:rgb(255, 0, 128);
-                text-align:center;
-                font-size:1.5em;
+                font-size:100%;
             }
 
+            li {
+                color: white;
+            }
+
+            p {
+                color:white;
+                background-color: aqua(50%);
+            }
+
+            #myDIV {
+                font-size: 100%;
+            }
 
             #heading {
                 background-color:green;
@@ -106,11 +116,10 @@
             }
         </style>
 
-        <div class="container">    
+        <div class="container-fluid">    
         <div class="jumbotron text-center mt-4 p-5 bg-danger rounded">
-            <h1 class="text-white"><b><u><i>Welcome to Christopher's Webpage</i></u></b></h1>
+            <h4 class="text-white" style="font-family: 'Courier New', Courier, monospace; font-size: x-large; font-size: 75px;"><b><u><i>Welcome to My Webpage</i></u></b></h1>
             <p class="text-white">My Personal Profile Page</p>
-        </div>
         </div>
 
         <div class="form-group">
@@ -127,31 +136,27 @@
         </form>
         </div>
 
-        <div id="Menu">
-            <h2 class="text-capitalize"><u>table of contents</h2></u>
-            <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
-                <div class="container-fluid">
-                <a class="navbar-brand">Table of Contents</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <nav class="navbar navbar-expand-xlg bg-info navbar-light">
+                <a class="navbar-brand text-capitalize" style="text-align: center; font-size: xx-large;" href="#Menu"><b>Table of Contents</b></a>
+                <button type="button" style="background-color: aquamarine;border:2px solid black" class="navbar-toggler btn-success btn-outline-primary" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#Profile_Information"><b>Profile Information Seciton</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Education"><b>Education Section</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Work_Experience"><b>Work Experience/Internships Section</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Programming_Skills"><b>Programming Skills Section</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#General"><b>General Interests/Favorites Section</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Interests">General Interests Sub-Section</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Favorites">Favorites Sub-Section</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Favorite_Websites"><b>Favorite Websites Section</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#My_Projects"><b>My Projects Section</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkred;" href="#Profile_Information"><b>Profile Information Seciton</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkorange;" href="#Education"><b>Education Section</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkslategrey;" href="#Work_Experience"><b>Work Experience/Internships Section</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkgreen;" href="#Programming_Skills"><b>Programming Skills Section</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkblue" href="#General" id="navbardrop" data-toggle="dropdown"><b>General Interests/Favorites Section</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkblue" href="#Interests">General Interests Sub-Section</a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkblue" href="#Favorites">Favorites Sub-Section</a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: purple" href="#Favorite_Websites"><b>Favorite Websites Section</b></a></li>
+                        <li class="nav-item"><a class="nav-link text-center" style="font-size: x-large; color: darkmagenta" href="#My_Projects"><b>My Projects Section</b></a></li>
                     </ul>
                 </div>
                 </div>
-            </nav>
+        </nav>
         <hr>
-
 
         <div id="Profile_Information">
         <h2 class="text-capitalize"><u>profile information</h2></u>
